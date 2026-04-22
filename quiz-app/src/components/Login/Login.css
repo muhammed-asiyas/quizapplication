@@ -1,0 +1,260 @@
+.login-all-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.login-icon {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: #8342f4;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+.silent-scolar-title {
+  color: #34313a;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Roboto;
+  line-height: 0px;
+}
+
+.login-second-head-title {
+  color: #625d67;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Roboto;
+  line-height: 0px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 21%;
+  min-height: 400px;
+  background-color: white;
+  box-shadow: 0px 0px 2px 0px rgb(224, 224, 224);
+  border-radius: 12px;
+  padding: 30px;
+  padding-top: 32px;
+  margin-top: 26px;
+}
+
+.login-first-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 145px;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.welcome-back {
+  color: #34313a;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  line-height: 0px;
+}
+.welcome-back-description {
+  color: #807b85;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+  line-height: 20px;
+  margin: 0px;
+  margin-top: 6px;
+}
+
+
+.password-and-forgot-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #8342f4;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+}
+
+.arrow-right-sign-btn {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.input-field-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+.label-text {
+  color: #625d67;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.input-field-style {
+  height: 42px;
+  border: none;
+  background-color: #e7e0ec;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  color: #7e7983;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.hr-line-div {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hr-line-login {
+    width: 28%;
+}
+
+.hr-line-text {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #7E7983;
+    letter-spacing: 1px;
+}
+
+.forgot-btn {
+  color: #742FE5;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.login-mode-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-mode-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43%;
+  border-radius: 12px;
+  height: 46px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.login-last-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.dont-have-an-account-title {
+  color: #625D67;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.create-an-account {
+  color: #742FE5;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+
+.login-last-description {
+  color: #c0bfc1;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 550px) {
+  .login-container {
+    width: 60%;
+  }
+  .welcome-back {
+    font-size: 16px;
+  }
+  .welcome-back-description {
+    font-size: 12px;
+  }
+  .label-text {
+    font-size: 11px;
+  }
+  .forgot-btn {
+    font-size: 12px;
+  }
+  .login-mode-btn {
+    width: 48%;
+  }
+  .input-field-style {
+    height: 38px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1267px) {
+  .login-container {
+    width: 40%;
+  }
+  .welcome-back {
+    font-size: 17px;
+  }
+  .welcome-back-description {
+    font-size: 13px;
+  }
+  .label-text {
+    font-size: 12px;
+  }
+  .forgot-btn {
+    font-size: 13px;
+  }
+  .login-mode-btn {
+    width: 45%;
+  }
+  .input-field-style {
+    height: 38px;
+  }
+}
