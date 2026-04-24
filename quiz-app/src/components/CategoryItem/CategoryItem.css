@@ -1,0 +1,39 @@
+.category-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F1FA;
+    width: 208px;
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.category-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-1 {
+    color: #742FE5;
+    font-size: 44px;
+}
+
+.icon-2 {
+    color: #cfcbd6;
+    font-size: 120px;
+}
+
+.category-title {
+    color: #34313A;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.category-description {
+    color: #55515d;
+    font-size: 15px;
+    font-weight: 500;
+
+}

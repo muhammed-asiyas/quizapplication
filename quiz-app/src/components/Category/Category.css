@@ -1,0 +1,123 @@
+.curated-knowledge-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  color: #742fe5;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background-color: #f7ecfc;
+  border-radius: 18px;
+  height: 30px;
+}
+ 
+.select-categeory-text {
+    color: #34313A;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 0px;
+}
+
+.span-category {
+    color: #742FE5;
+    font-style: italic;
+}
+
+.category-head-description {
+    color: #625D67;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    line-height: 30px;
+}
+
+.category-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.current-postion-score-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E7E0EC;
+    padding: 24px;
+    border-radius: 12px;
+    width: 72%;
+    height: 60px;
+    list-style-type: none;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.current-box-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-current-box-item {
+    color: #742FE5;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0px;
+}
+
+.second-current-box-item {
+    color: #625D67;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+.weekly-performance-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8d5f6;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 10px;
+    padding-left: 40px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 72%;
+    margin-bottom: 70px;
+}
+
+.unordered-list-weekly-item-container {
+    padding: 0px;
+    width: 40%;
+}
+
+.continue-your-streak {
+    color: #222026;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 14px;
+
+}
+
+.weekly-performance-description {
+    color: #625D67;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.achievement-roadmap-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #742FE5;
+    color: white;
+    font-size: 16px;
+    width: 320px;
+    height: 50px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 12px;
+}

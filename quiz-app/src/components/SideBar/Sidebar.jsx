@@ -1,7 +1,7 @@
 import React from 'react'
 import { GoHome } from "react-icons/go";
 import { GrHistory } from "react-icons/gr";
-import { MdPersonOutline } from "react-icons/md";
+import { MdPersonOutline, MdOutlineLogout } from "react-icons/md";
 import './Sidebar.css'
 import SidebarItems from '../SideBarItems/SidebarItems';
 
@@ -13,14 +13,20 @@ const sideBarItems = [
 
 const Sidebar = () => {
   return (
-    <div className='sidebar-container'>
-      <h1 className='sidebar-scholar-text'>The Scholar</h1>
+    <div className='sidebar-container-lg'>
+      <div>
+        <h1 className='sidebar-scholar-text'>The Scholar</h1>
       <p className='level-12-collector'>LEVEL 12 COLLECTOR</p>
       <ul className='sidebar-items-container'>
         {sideBarItems.map(each => (
           <SidebarItems key={each.id} items={each} />
         ))}
       </ul>
+      </div>
+      <div className='logout-container'>
+        <MdOutlineLogout className='logout-icon' />
+        Logout
+      </div>
     </div>
   )
 }

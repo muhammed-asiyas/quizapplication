@@ -4,9 +4,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
-import Layout from "./components/Layout/Layout";
 import Login from "./components/Login/Login";
 import Context from "./components/context/context";
+import Sidebar from "./components/SideBar/Sidebar";
+import CategoryPage from "./components/Pages/CategoryPage/CategoryPage";
 
 function App() {
   const [isActiveNav, setActiveNav] = useState("Home");
@@ -23,9 +24,10 @@ function App() {
         }}
       >
         <div className="app-container">
+          <Sidebar />
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Layout />} />
+              <Route path="/" element={<CategoryPage />}/>
               <Route path="/login" element={<Login />} />
             </Routes>
           </BrowserRouter>
